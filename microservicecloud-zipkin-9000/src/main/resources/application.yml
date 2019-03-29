@@ -1,0 +1,10 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka7001.com:7001/eureka/
+server:
+  port: 9000
+spring:
+  application:
+    name: microservicecloud-zipkin-server
+

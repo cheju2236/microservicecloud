@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: microservicecloud-config-dept-client
+  zipkin:
+    base-url: http://zipkin9000.com:9000/
+  sleuth:
+    sampler:
+      percentage: 1.0
